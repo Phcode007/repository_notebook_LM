@@ -41,7 +41,7 @@ As fontes abaixo foram selecionadas por serem abertas, confiáveis e com cobertu
 **Prompt 1 — Visão geral do tema**
 > *"Com base nas fontes carregadas, quais são os 5 conceitos mais importantes de JavaScript que um iniciante precisa dominar antes de aprender TypeScript?"*
 
-**Resposta obtida:** O NotebookLM listou: (1) tipos de dados primitivos, (2) escopo e hoisting, (3) funções e arrow functions, (4) closures, (5) o sistema de módulos (CommonJS vs ESM). Cada ponto veio referenciado com trechos das fontes.
+**Resposta obtida:** O NotebookLM listou: (1) Variáveis e Tipos de Dados, (2) Funções, (3) Trabalhando com Objetos, (4) Coleções e Métodos de Array, (5)Controle de Fluxo e Lógica. Cada ponto veio referenciado com trechos das fontes.
 
 **Avaliação:** Boa resposta, bem fundamentada. As referências às fontes foram precisas.
 
@@ -50,9 +50,9 @@ As fontes abaixo foram selecionadas por serem abertas, confiáveis e com cobertu
 **Prompt 2 — Aprofundamento em um conceito**
 > *"Explique o conceito de closure em JavaScript como se eu fosse um iniciante. Use um exemplo de código simples."*
 
-**Resposta obtida:** O modelo explicou corretamente e trouxe um exemplo baseado no javascript.info. O exemplo foi claro, mas o código não estava formatado (sem bloco de código markdown).
+**Resposta obtida:** O modelo explicou corretamente e trouxe um exemplo baseado no javascript.info. O exemplo foi claro, e o código estava formatado (com bloco de código markdown).
 
-**Cicatriz:** O NotebookLM não formata código automaticamente. Tive que pedir no prompt seguinte para "reescrever o exemplo anterior com o código em bloco de código formatado".
+
 
 ---
 
@@ -61,26 +61,14 @@ As fontes abaixo foram selecionadas por serem abertas, confiáveis e com cobertu
 >
 > *Versão B:* `"Com base no TypeScript Handbook e no TypeScript Deep Dive, liste as 3 principais vantagens práticas do TypeScript sobre o JavaScript puro para um desenvolvedor iniciante."`
 
-**Comparação:** A versão A gerou uma resposta genérica. A versão B gerou uma resposta muito mais precisa, com referências diretas às fontes. **Lição aprendida:** ser específico sobre qual fonte consultar e qual perfil de pessoa está perguntando melhora muito a qualidade da resposta.
+**Comparação:** A versão A gerou uma resposta precisa baseada no contexto do conteúdo anexo ao notebookLM. A versão B manteve o padrão, com referências diretas às fontes. **Lição aprendida:** ser específico sobre qual fonte consultar e qual perfil de pessoa está perguntando melhora muito a qualidade da resposta.
 
 ---
 
 **Prompt 4 — Geração de glossário**
 > *"Com base em todas as fontes, gere um glossário com os 10 principais termos técnicos de JavaScript e TypeScript, com definição curta de uma frase para cada."*
 
-**Resposta obtida:** Boa qualidade. Alguns termos vieram com definições longas demais, então refinei com:
-> *"Reescreva o glossário mantendo cada definição em no máximo uma linha."*
-
----
-
-### 3.2 Dificuldades encontradas (Troubleshooting)
-
-| Problema | Causa provável | Solução aplicada |
-|----------|---------------|-----------------|
-| Resposta genérica sem usar as fontes | Prompt muito aberto | Especificar a fonte pelo nome no prompt |
-| Código sem formatação | NotebookLM não usa markdown de código | Pedir explicitamente "em bloco de código" |
-| Resposta muito longa | Ausência de restrição no prompt | Adicionar "em no máximo X linhas" ou "de forma resumida" |
-| Informação conflitante entre fontes | Fontes de épocas diferentes | Pedir para o modelo indicar qual fonte usou em cada ponto |
+**Resposta obtida:** Boa qualidade. Todos os termos estavam escritos da forma correta.
 
 ---
 
