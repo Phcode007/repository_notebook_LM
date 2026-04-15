@@ -30,7 +30,8 @@ As fontes abaixo foram selecionadas por serem abertas, confiáveis e com cobertu
 | 3 | TypeScript Handbook — The Basics | Documentação oficial | [link](https://www.typescriptlang.org/docs/handbook/2/basic-types.html) |
 | 4 | JavaScript.info — JavaScript Fundamentals | Tutorial interativo | [link](https://javascript.info/first-steps) |
 | 5 | TypeScript Deep Dive (Basarat) — Why TypeScript | Livro open-source | [link](https://basarat.gitbook.io/typescript/getting-started/why-typescript) |
-| 6 | Mini curso Javascript | Curso do canal Dev Club | [link](https://basarat.gitbook.io/typescript/getting-started/why-typescript) |
+| 6 | Mini curso Javascript | Curso do canal Dev Club | [link](https://www.youtube.com/playlist?list=PLsFVybaG4mODFwCuV06yLitVTikKF09syt) |
+
 ---
 
 ## 3. Engenharia de Prompts e Cicatrizes
@@ -164,3 +165,8 @@ Este caderno foi construído com foco em **revisão ativa**: ao invés de apenas
 ---
 
 *Projeto desenvolvido para o desafio de IA da [DIO](https://www.dio.me/) — utilizando [NotebookLM](https://notebooklm.google.com/) como ferramenta principal.*
+
+
+## Link do NotebookLM
+
+[BasicJS/TS](https://notebooklm.google.com/notebook/c983430d-6511-45e5-9384-c630dbda7810)
